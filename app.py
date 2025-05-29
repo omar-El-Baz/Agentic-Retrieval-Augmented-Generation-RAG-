@@ -344,5 +344,3 @@ if prompt := st.chat_input("e.g., Find a luxury hotel in Paris near Eiffel Tower
         
         message_placeholder.markdown(response)
         st.session_state.messages.append({"role": "assistant", "content": response})
-
-# --- END OF FILE app.py ---
