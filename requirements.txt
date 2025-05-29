@@ -1,25 +1,14 @@
-# --- Core Data Handling & Processing ---
+# requirements.txt
 pandas
 nltk
 beautifulsoup4
 python-dotenv
-
-# --- Vector Database & Embeddings ---
 sentence-transformers
 qdrant-client
-
-# --- LLM Orchestration (CrewAI) & OpenAI Integration ---
 crewai
 crewai-tools
 langchain-openai
-
-# --- Streamlit UI ---
 streamlit
-
-# --- TensorFlow/Keras Stack ---
-# Choose based on your system. For M-series Mac:
-# tensorflow-macos
-# tensorflow-metal
-# For general compatibility if above isn't specific enough or for other systems:
-tensorflow
+tensorflow 
 tf-keras
+numpy<2.0   
